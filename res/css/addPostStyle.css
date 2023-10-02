@@ -1,0 +1,8 @@
+.chooseButton {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
