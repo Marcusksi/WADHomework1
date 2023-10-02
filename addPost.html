@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="res/images/">
-    <link rel="stylesheet" href="/res/css/style.css">
+    <link rel="stylesheet" href="res/css/addPostStyle.css">
     <title>addPost</title>
   </head>
   <body>
@@ -21,8 +21,9 @@
     <p>Post body</p>
     <textarea>Add text</textarea>
 
-    <form class="filePost" action="/action_page.php">
-        <input type="file" name="filename">
+    <form action="/action_page.php">
+        <input class="hidden" type="file" id="files">
+        <label class="chooseButton" for="files">Select file</label>
         <button><a href="./Index.html">Create post</a></button>
     </form>
 
