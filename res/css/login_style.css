@@ -1,3 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav > li {
+    padding: 2%;
+}
+
+.nav {
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.nav a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    }
+
+    @media (min-width: 800px) {
+        .header,
+        .nav {
+            display: flex;
+        }
+        .header {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .header {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+.logo {
+    margin: 10px;
+}
 .login{
     background-color:lightgray;
     text-align: center;
@@ -11,4 +62,22 @@
 }
 .create{
     color: blue;
+}
+.form{
+    padding: 5px, 5px,5px,500px;
+}
+.input{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    width: 100px;
+}
+.login_nupp{
+    background-color: rgb(78, 78, 236);
+    width: 70px;
+    height: 30px;
+    color: azure;
+    margin: 10px;
+    border: none;
 }
