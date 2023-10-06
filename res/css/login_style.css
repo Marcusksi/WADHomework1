@@ -28,45 +28,38 @@ ul {
     text-decoration: none;
     }
 
-    @media (min-width: 800px) {
-        .header,
-        .nav {
-            display: flex;
-        }
-        .header {
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-
-    @media (min-width: 1000px) {
-        .header {
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    }
+    
 
 .logo {
     margin: 10px;
 }
+
 .login{
     background-color:lightgray;
     text-align: center;
     padding: 10px;
     width: 300px;
     border-radius: 10%;
-    top: 50%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
-    position: fixed;
+    transform: translate(-50%, 0%);
+    margin-top: 40px;
 }
-.create{
-    color: blue;
+#create, #forget{
+    color: rgb(95, 95, 221);
+    text-decoration: none;
+}
+
+
+#forget:hover, #create:hover{
+    text-decoration: underline;
 }
 .form{
     padding: 5px, 5px,5px,500px;
 }
-.input{
+
+/*descendant selector*/
+.form .input{ 
     margin: 5px;
     padding: 10px;
     border-radius: 0;
@@ -80,4 +73,23 @@ ul {
     color: azure;
     margin: 10px;
     border: none;
+}
+.login_nupp:hover{
+    opacity: 0.9;
+}
+@media (min-width: 800px) {
+    .header, .nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
