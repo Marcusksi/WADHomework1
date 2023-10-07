@@ -41,7 +41,7 @@ ul {
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
     .header, .nav {
         display: flex;
     }
@@ -55,5 +55,11 @@ ul {
     .header {
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 400px){
+    .addition {
+        visibility: hidden;
     }
 }
