@@ -10,26 +10,43 @@
   </head>
   <body>
     <header class="header">
-        <ul class="nav">
-            <li><a href="Index.html">Home</a></li>
-        </ul>
-
-        <a class="logo" href="#"><img src="res/images/profile_pic.png" width="50" height="50" alt="My picture"></a>
-    </header>
-
-    <p>Post body</p>
-    <textarea>Add text</textarea>
-
-    <form action="/action_page.php">
-        <input class="hidden" type="file" id="files">
-        <label class="chooseButton" for="files">Select file</label>
-        <button><a href="./Index.html">Create post</a></button>
-    </form>
+      <ul class="nav">
+          <li><a href="Index.html">Home</a></li>
+      </ul>
+      <a class="logo" href="#"><img src="res/images/profile_pic.png" height="50px" alt="My picture"></a>
+  </header>
 
 
-    
+  <section>
+    <div class="middleBox">
 
-    <footer>
-    </footer>
+    <div class='divRow'>
+      <div class='inRowLeft'>
+        <p>Post body</p>
+      </div>
+      <div class='inRowRight'>
+        <textarea placeholder="Add text here"></textarea>
+      </div> 
+    </div>
+  
+      <form action="/action_page.php" class='divRow'>
+        <div class='inRowLeft'>
+          <p>Select file</p>
+        </div>
+        <div class='inRowRight'>
+          <input class="hidden" type="file" id="files">
+          <label class="addPostButton" for="files">Choose file</label>
+        </div> 
+      </form>
+
+      <a class="addPostButton" href="./Index.html">Create post</a>
+
+      
+    </div>
+  </section>
+
+
+
+
   </body>
 </html>

@@ -1,8 +1,64 @@
-.chooseButton {
-    background-color: aqua;
+.middleBox {
+    background-color:antiquewhite;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 50px;
+    
+}
+
+
+.addPostButton {
+    background-color: rgb(78, 78, 236);
+    color: azure;
+    margin: 10px;
+    border: none;
     padding: 10px;
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+.addPostButton:hover {
+    opacity: 0.9;
+    cursor:pointer;
 }
 
 .hidden {
     display: none;
 }
+
+.divRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.inRowLeft { 
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    text-align: right;
+}
+.inRowRight { 
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+}
+
+textarea {
+    width: 90%;
+    margin: 10px;
+    height: 100px;
+}
+
+
+
+
+
+
