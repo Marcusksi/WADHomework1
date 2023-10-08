@@ -33,3 +33,7 @@ section {
         margin-right: 20%;
     }
 }
+
+li ~ p {
+    font-size: 22px;
+}
