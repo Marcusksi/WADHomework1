@@ -32,7 +32,8 @@ ul {
 }
 
 .nav a:hover {
-    background-color:white;
+    background-color:rgb(78, 78, 236);
+    color: white;
 }
     
 
