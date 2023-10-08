@@ -16,7 +16,7 @@ ul {
 }
 
 .nav > li {
-    padding: 2%;
+    padding: 3%;
 }
 
 .nav {
@@ -32,8 +32,8 @@ ul {
 }
 
 .nav a:hover {
-    background-color:rgb(78, 78, 236);
-    color: white;
+    background-color:skyblue;
+    color: black;
 }
     
 
