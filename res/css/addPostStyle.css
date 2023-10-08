@@ -13,8 +13,8 @@
 
 
 .addPostButton {
-    background-color: rgb(78, 78, 236);
-    color: azure;
+    background-color: skyblue;
+    color: black;
     margin: 10px;
     border: none;
     padding: 10px;
@@ -53,7 +53,8 @@
 }
 
 textarea {
-    width: 90%;
+    resize: none;
+    width: 80%;
     margin: 10px;
     height: 100px;
 }

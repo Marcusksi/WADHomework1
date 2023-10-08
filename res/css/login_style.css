@@ -1,5 +1,5 @@
 .login{
-    background-color:lightgray;
+    background-color:antiquewhite;
     text-align: center;
     padding: 10px;
     width: 300px;
@@ -31,10 +31,10 @@
     width: 100px;
 }
 .login_nupp{
-    background-color: rgb(78, 78, 236);
+    background-color: skyblue;
     width: 70px;
     height: 30px;
-    color: azure;
+    color: black;
     margin: 10px;
     border: none;
 }
