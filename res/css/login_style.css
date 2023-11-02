@@ -1,5 +1,5 @@
 .login{
-    background-color:antiquewhite;
+    background-color: #8FC1E3;
     text-align: center;
     padding: 10px;
     width: 300px;
@@ -9,13 +9,13 @@
     transform: translate(-50%, 0%);
     margin-top: 40px;
 }
-#create, #forget{
-    color: rgb(95, 95, 221);
+#create, #forgot{
+    color: #496342;
     text-decoration: none;
 }
 
 
-#forget:hover, #create:hover{
+#forgot:hover, #create:hover{
     text-decoration: underline;
 }
 .form{
@@ -31,7 +31,7 @@
     width: 100px;
 }
 .login_nupp{
-    background-color: skyblue;
+    background-color: #496342;
     width: 70px;
     height: 30px;
     color: black;
@@ -41,6 +41,6 @@
 .login_nupp:hover{
     opacity: 0.9;
     cursor:pointer;
-    background-color: rgb(163, 214, 235);
+    background-color: #7a9673;
 }
 

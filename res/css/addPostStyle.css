@@ -1,5 +1,5 @@
 .middleBox {
-    background-color:antiquewhite;
+    background-color:#8FC1E3;
     text-align: center;
     padding: 10px;
     width: 300px;
@@ -13,7 +13,7 @@
 
 
 .addPostButton {
-    background-color: skyblue;
+    background-color: #496342;
     color: black;
     margin: 10px;
     border: none;
@@ -23,7 +23,7 @@
 }
 
 .addPostButton:hover {
-    background-color: rgb(163, 214, 235);
+    background-color: #7a9673;
     opacity: 0.9;
     cursor:pointer;
 }
