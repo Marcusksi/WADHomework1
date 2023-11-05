@@ -179,3 +179,46 @@ const getData = async () => {
 
 })();
 */
+
+
+let logo = document.getElementsByClassName("logo");
+
+function fetchUserData() {
+    // simulate user data fetching
+    return {
+        username: "John Doe",
+        email: "john.doe@ut.ee"
+    };
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    let userDropdown = document.getElementById("user-dropdown");
+    let dropdownContent = userDropdown.querySelector(".dropdown-content");
+    let usernameElement = document.getElementById("username");
+    let emailElement = document.getElementById("email");
+    let logoutButton = document.getElementById("logout");
+
+   
+    let userData = fetchUserData();
+    usernameElement.textContent = userData.username;
+    emailElement.textContent = userData.email;
+
+    
+    logoutButton.addEventListener("click", function () {
+        
+        
+    });
+
+    // show the dropdown when clicking on the logo
+    userDropdown.addEventListener("click", function () {
+        if(dropdownContent.style.display==='block'){
+            dropdownContent.style.display='none';
+        }
+        else{
+            dropdownContent.style.display='block';
+        }
+    });
+
+    
+    
+});
