@@ -76,8 +76,10 @@ const getDataLocal = async () => {
         imgReaction.alt = "Reaction picture";
         ul.appendChild(imgReaction);
 
-        imgReaction.onclick = function(){ //animation
-            imgReaction.classList.toggle('reactionAnimation')
+        imgReaction.onclick = async function(){ //animation
+            imgReaction.classList.toggle('reactionAnimation');
+            await new Promise(r => setTimeout(r, 400));
+            imgReaction.classList.toggle('reactionAnimation');
         }
     });
 
