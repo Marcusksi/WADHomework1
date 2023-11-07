@@ -59,6 +59,7 @@ const getDataLocal = async () => {
             imgPicture.src = element.picture;
             imgPicture.alt = "Post picture";
             imgPicture.classList.add('picture')
+            imgPicture.setAttribute('id','likeAnimation');
             aPicture.appendChild(imgPicture);
         }
         
@@ -68,21 +69,19 @@ const getDataLocal = async () => {
         ul.appendChild(pBody);
         pBody.appendChild(textBody);
 
-        //reaction
-        let aReaction = document.createElement('a');
-        aReaction.href = element.reaction;
-        aReaction.classList.add('reaction')
-        ul.appendChild(aReaction);
-
         let imgReaction = document.createElement("img");
         imgReaction.src = element.reaction;
+        imgReaction.classList.add('reaction')
         imgReaction.width = 30;
         imgReaction.alt = "Reaction picture";
-        aReaction.appendChild(imgReaction);
+        ul.appendChild(imgReaction);
+
+        imgReaction.onclick = function(){ //animation
+            imgReaction.classList.toggle('reactionAnimation')
+        }
     });
 
 })();
-
 
 
 

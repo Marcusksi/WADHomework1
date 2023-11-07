@@ -24,6 +24,23 @@ section {
     width: 75%;
 }
 
+.reaction {
+    cursor: pointer;
+}
+
+.reactionAnimation {
+    animation: likeUpDown 0.4s linear 0.4;
+  }
+  
+@keyframes likeUpDown {
+    from, to {
+        transform: translateY(-20px);
+      }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
 @media (min-width: 800px) {
     .box {
         margin-left: 0%;
