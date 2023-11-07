@@ -70,7 +70,7 @@ const getDataLocal = async () => {
 
         //reaction
         let aReaction = document.createElement('a');
-        aReaction.href = element.reaction;
+        aReaction.href = "#";
         aReaction.classList.add('reaction')
         ul.appendChild(aReaction);
 
