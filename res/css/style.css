@@ -47,10 +47,10 @@ ul {
 
 
 @media (min-width: 400px) {
-    .header, .nav {
+    .header, .nav, .foot {
         display: flex;
     }
-    .header {
+    .header, .foot {
         flex-direction: column;
         align-items: center;
     }
@@ -76,4 +76,12 @@ ul {
     .dropdown-content{
         left: 0;
     }
+}
+
+footer {
+    color: #F7F9FB;
+    background-color: #687864;
+    border-radius: 15px;
+    width: 100%;
+    height: 50;
 }
