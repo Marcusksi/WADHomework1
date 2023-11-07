@@ -41,3 +41,27 @@ section {
 li ~ p {
     font-size: 22px;
 }
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    left: -100px;
+    width: 200px;
+    align-items:start;
+    border-radius: 20px;
+}
+.dropdown-content a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
