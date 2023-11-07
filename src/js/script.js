@@ -88,6 +88,7 @@ const getDataLocal = async () => {
 
 
 
+
 /*
 let dataGlobal;
 const getData = async () => {
