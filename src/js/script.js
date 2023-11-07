@@ -52,16 +52,13 @@ const getDataLocal = async () => {
         if (element.picture != "") {
             let aPicture = document.createElement('a');
             aPicture.href = element.picture;
-            aPicture.classList.add('picture')
+            aPicture.classList.add('aPicture')
             ul.appendChild(aPicture);
 
             let imgPicture = document.createElement("img");
             imgPicture.src = element.picture;
             imgPicture.alt = "Post picture";
-
-            imgPicture.onload = function(){
-                imgPicture.width = this.width*0.75;
-            }
+            imgPicture.classList.add('picture')
             aPicture.appendChild(imgPicture);
         }
         

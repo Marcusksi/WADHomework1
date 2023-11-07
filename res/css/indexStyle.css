@@ -16,8 +16,12 @@ section {
 
 
 .picture {
+    width: 75%;
+}
+
+.aPicture {
     height: 100%;
-    width: 100%;
+    width: 75%;
 }
 
 @media (min-width: 800px) {
